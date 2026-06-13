@@ -221,7 +221,7 @@ date:new Date()
 // GOOGLE APPS SCRIPT URL
 
 const scriptURL =
-"https://script.google.com/macros/s/AKfycbwdryaJIVOyZQtje0teLutV2IJ9gkbJZLWWcec67WVtFR1Ygd4A6YsWiIsgzEBViC4X/exec";
+"https://script.google.com/macros/s/AKfycbyyq4flTDKXUQBztZf2Tg9N-nrCYw7n4f90m1RqN8mpFtueJMrJ6CnYOCHFVbrgdG3A/exec";
 
 // SEND DATA
 
