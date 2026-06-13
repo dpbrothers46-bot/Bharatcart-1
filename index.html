@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BharatCart - Digital & Physical Products</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+    <div class="logo">
+        BharatCart
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+        <h1>Welcome To BharatCart</h1>
+
+        <p>
+            Digital Products & Physical Products
+            at one trusted place.
+        </p>
+
+        <a href="#products" class="btn">
+            Shop Now
+        </a>
+    </div>
+
+</section>
+
+<!-- SEARCH -->
+
+<section class="search-section">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Products..."
+    >
+
+</section>
+
+<!-- CATEGORY FILTER -->
+
+<section class="categories">
+
+    <button onclick="filterProducts('all')">
+        All
+    </button>
+
+    <button onclick="filterProducts('digital')">
+        Digital
+    </button>
+
+    <button onclick="filterProducts('physical')">
+        Physical
+    </button>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section id="products">
+
+    <h2 class="section-title">
+        Featured Products
+    </h2>
+
+    <div class="products-container"
+         id="productsContainer">
+
+    </div>
+
+</section>
+
+<!-- ORDER FORM -->
+
+<section class="order-section">
+
+    <h2>Place Your Order</h2>
+
+    <form id="orderForm">
+
+        <input
+            type="text"
+            id="customerName"
+            placeholder="Full Name"
+            required
+        >
+
+        <input
+            type="email"
+            id="customerEmail"
+            placeholder="Email"
+            required
+        >
+
+        <input
+            type="text"
+            id="customerPhone"
+            placeholder="Mobile Number"
+            required
+        >
+
+        <textarea
+            id="customerAddress"
+            placeholder="Address"
+            required
+        ></textarea>
+
+        <input
+            type="text"
+            id="selectedProduct"
+            placeholder="Selected Product"
+            readonly
+        >
+
+        <button type="submit">
+            Submit Order
+        </button>
+
+    </form>
+
+</section>
+
+<!-- PAYMENT -->
+
+<section class="payment-section">
+
+    <h2>UPI Payment</h2>
+
+    <p>
+        UPI ID:
+        <strong>dp96497767@ptyes</strong>
+    </p>
+
+    <p>
+        Complete payment before submitting order.
+    </p>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2 class="section-title">
+        About BharatCart
+    </h2>
+
+    <p class="about-text">
+
+        BharatCart is your trusted destination
+        for digital and physical products.
+
+        We provide quality products,
+        secure transactions,
+        and customer satisfaction.
+
+    </p>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <h2 class="section-title">
+        Contact Us
+    </h2>
+
+    <div class="contact-box">
+
+        <p>
+            Email:
+            dpbrothers46@gmail.com
+        </p>
+
+        <p>
+            Store:
+            BharatCart
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        © 2026 BharatCart.
+        All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
