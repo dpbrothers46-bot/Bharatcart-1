@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "AI Prompt Bundle",
+    "price": 299,
+    "category": "digital",
+    "image": "images/ai-prompt.jpg",
+    "description": "Premium AI prompts for content creation."
+  },
+
+  {
+    "id": 2,
+    "name": "Premium Ebook",
+    "price": 199,
+    "category": "digital",
+    "image": "images/ebook.jpg",
+    "description": "High quality digital ebook."
+  },
+
+  {
+    "id": 3,
+    "name": "Canva Template Pack",
+    "price": 499,
+    "category": "digital",
+    "image": "images/canva.jpg",
+    "description": "Professional Canva templates."
+  },
+
+  {
+    "id": 4,
+    "name": "Wireless Mouse",
+    "price": 799,
+    "category": "physical",
+    "image": "images/mouse.jpg",
+    "description": "Wireless ergonomic mouse."
+  },
+
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 1499,
+    "category": "physical",
+    "image": "images/speaker.jpg",
+    "description": "Portable Bluetooth speaker."
+  },
+
+  {
+    "id": 6,
+    "name": "Smart Watch",
+    "price": 2499,
+    "category": "physical",
+    "image": "images/watch.jpg",
+    "description": "Smart watch with fitness tracking."
+  }
+]
